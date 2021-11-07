@@ -1,0 +1,540 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6713791200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I navigate to the login page",
+            "match": {
+              "location": "steps.AccountSteps.navigateToEcommerce()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1278070200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select the Sign in option",
+            "match": {
+              "location": "steps.AccountSteps.selectSignButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1218369000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter my username and password",
+            "match": {
+              "location": "steps.AccountSteps.enterAcces()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1862402900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click on the Sign in session button",
+            "match": {
+              "location": "steps.AccountSteps.clickSignInButton()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-06T01:33:49.839Z",
+        "line": 13,
+        "name": "Successful login",
+        "description": "",
+        "id": "account;successful-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 99083100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Login to my account",
+            "match": {
+              "location": "steps.AccountSteps.loginAccount()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2333437200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I select the button Sign out",
+            "match": {
+              "location": "steps.AccountSteps.closeMySession()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1839611800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I navigate to the login page",
+            "match": {
+              "location": "steps.AccountSteps.navigateToEcommerce()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1836130000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select the Sign in option",
+            "match": {
+              "location": "steps.AccountSteps.selectSignButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 600586000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter my username and password",
+            "match": {
+              "location": "steps.AccountSteps.enterAcces()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1559559300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click on the Sign in session button",
+            "match": {
+              "location": "steps.AccountSteps.clickSignInButton()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-06T01:34:03.548Z",
+        "line": 17,
+        "name": "Successful logout",
+        "description": "",
+        "id": "account;successful-logout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2205370700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I select the button Sign out",
+            "match": {
+              "location": "steps.AccountSteps.closeMySession()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73005500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "The session is closed",
+            "match": {
+              "location": "steps.AccountSteps.errorIsDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Account",
+    "description": "  As a user of the e-commerce website\n  I want to use the functionalities corresponding to my account",
+    "id": "account",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/EcommerceAccount.feature",
+    "tags": [
+      {
+        "name": "@Smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1449930600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I navigate to the login page",
+            "match": {
+              "location": "steps.AccountSteps.navigateToEcommerce()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1741156400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select the Sign in option",
+            "match": {
+              "location": "steps.AccountSteps.selectSignButton()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-06T01:34:11.680Z",
+        "line": 11,
+        "name": "Login without password",
+        "description": "",
+        "id": "account-validations;login-without-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 296011700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I fill in the mail field",
+            "match": {
+              "location": "steps.AccountSteps.fillEmail()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1170137600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "A password validation is generated",
+            "match": {
+              "location": "steps.AccountSteps.validatePassword()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1965097600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I navigate to the login page",
+            "match": {
+              "location": "steps.AccountSteps.navigateToEcommerce()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1615867400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select the Sign in option",
+            "match": {
+              "location": "steps.AccountSteps.selectSignButton()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-06T01:34:16.357Z",
+        "line": 15,
+        "name": "Login without email",
+        "description": "",
+        "id": "account-validations;login-without-email",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 255041800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I fill in the password field",
+            "match": {
+              "location": "steps.AccountSteps.fillPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1539000800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "A email validation is generated",
+            "match": {
+              "location": "steps.AccountSteps.validateEmail()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1809017100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I navigate to the login page",
+            "match": {
+              "location": "steps.AccountSteps.navigateToEcommerce()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1732078500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select the Sign in option",
+            "match": {
+              "location": "steps.AccountSteps.selectSignButton()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-06T01:34:21.743Z",
+        "line": 19,
+        "name": "Login without wrong email",
+        "description": "",
+        "id": "account-validations;login-without-wrong-email",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1687965600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I fill in the email and password field with an incorrect values",
+            "match": {
+              "location": "steps.AccountSteps.wrongEmail()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 87003100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "An authentication validation is generated",
+            "match": {
+              "location": "steps.AccountSteps.wrongEmailValidate()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1788950400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I navigate to the login page",
+            "match": {
+              "location": "steps.AccountSteps.navigateToEcommerce()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1690971400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select the Sign in option",
+            "match": {
+              "location": "steps.AccountSteps.selectSignButton()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-06T01:34:27.071Z",
+        "line": 23,
+        "name": "Login without wrong password",
+        "description": "",
+        "id": "account-validations;login-without-wrong-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 311623900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I fill in the mail field",
+            "match": {
+              "location": "steps.AccountSteps.fillEmail()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1561762300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I fill in the password field with an incorrect value",
+            "match": {
+              "location": "steps.AccountSteps.wrongEmailError()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71985300,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "An authentication validation is generated",
+            "match": {
+              "location": "steps.AccountSteps.wrongEmailValidate()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Account Validations",
+    "description": "  As a user of the e-commerce website.\n  I want to verify that field validations are generated correctly.",
+    "id": "account-validations",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/EcommerceAccountValidations.feature",
+    "tags": [
+      {
+        "name": "@Smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
