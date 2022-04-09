@@ -18,7 +18,7 @@ public class BasePage {
     static {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\TNLP\\IdeaProjects\\JavaAutomation\\src\\test\\resources\\chromedriver\\chromedriver.exe");
         ChromeOptions chromeOptions = new ChromeOptions();
-        chromeOptions.addArguments("--headless");                   //Ejecutar los Test sin entorno grafico
+        //chromeOptions.addArguments("--headless");                   //Ejecutar los Test sin entorno grafico
         driver = new ChromeDriver(chromeOptions);
         wait = new WebDriverWait(driver, 10);
     }
